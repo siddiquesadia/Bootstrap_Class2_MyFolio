@@ -1,0 +1,343 @@
+/* sm to md device start */
+@media (min-width: 320px) and (max-width:991px){
+    #myCustomNav ul li a {
+        font-size: 10px;
+        padding: 18px 51px;
+        text-align: center;
+    }
+}
+/* sm to md device end */
+
+/* extra small to sm */
+@media (min-width: 320px) and (max-width:767px){
+    /* service card starts */
+    .service_heading h2 {
+        font-size: 35px;
+    }
+
+    .service_heading p {
+        font-size: 12px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    .service-card {
+        padding-top: 30px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    #mywork h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
+
+/* extra small device start */
+@media (min-width: 0px) and (max-width:575px){
+
+/* BANNER SECTION START */
+
+    #banner h2 {
+        font-size: 15px;
+        letter-spacing: 10px;
+    }
+
+    #banner h3 {
+        font-size: 10px;
+    }
+
+    #banner h6 {
+        font-size: 6px;
+    }
+
+    #banner {
+        height: 300px;
+    }
+
+    button {
+        width: 120px;
+        height: 34px;
+        margin-top: 47px;
+    }
+
+    button a {
+        font-size: 12px;
+    }
+
+    #banner img {
+        top: 53%;
+        left: 45%;
+        width: 45px;
+    }
+
+/* BANNER SECTION END */
+
+/* About Me section start */
+
+#aboutMe {
+    margin-top: 40px;
+}
+
+.about_cntnt {
+    margin-top: 30px;
+    text-align: center;
+}
+    .about_heading h2 {
+        font-size: 20px;
+    }
+
+    .about_heading img {
+        left: 34%;
+        top: 7%;
+    }
+
+    .about_heading p {
+        font-size: 10px;
+        line-height: 22px;
+        margin-top: 50px;
+    }
+
+    .about_heading p span {
+        font-size: 14px;
+    }
+    .about-card p {
+        padding-bottom: 10px;
+    }
+
+/* About Me section end */
+
+/* My work section starts */
+
+#mywork .img{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#mywork .img img{
+    width: 200px;
+}
+/* My work section ends */
+}
+/* extra small device end*/
+
+/* sm device start */
+@media (min-width:576px) and (max-width:767px){
+
+/* BANNER SECTION START */
+
+    #banner h2 {
+        font-size: 20px;
+        letter-spacing: 14px;
+    }
+
+    #banner h3 {
+        font-size: 15px;
+    }
+
+    #banner h6 {
+        font-size: 9px;
+    }
+
+    #banner {
+        height: 350px;
+    }
+
+    button {
+        width: 110px;
+        height: 30px;
+        margin-top: 40px;
+    }
+
+    button a {
+        font-size: 12px;
+    }
+
+    #banner img {
+        left: 45%;
+        width: 60px;
+    }
+
+/* BANNER SECTION END */
+
+/* ABOUT ME SECTION START */
+.about_heading h2 {
+    font-size: 30px;
+}
+
+.about_heading img {
+    left: 36%;
+}
+
+.about_heading p {
+    font-size: 12px;
+    line-height: 36px;
+}
+.about_heading p span {
+    font-size: 17px;
+}
+
+/* ABOUT ME SECTION END */
+}
+/* sm device end */
+
+
+/* md device start */
+
+@media (min-width:768px) and (max-width:991px){
+
+/* BANNER SECTION START */
+
+    #banner h2 {
+        font-size: 30px;
+        letter-spacing: 20px;
+    }
+
+    #banner h3 {
+        font-size: 22px;
+    }
+
+    #banner h6 {
+        font-size: 12px;
+    }
+
+    #banner {
+        height: 400px;
+    }
+
+    button {
+        width: 136px;
+        height: 40px;
+        margin-top: 50px;
+    }
+
+    #banner img {
+        left: 46%;
+        width: 70px;
+    }
+    /* BANNER SECTION END */
+
+    /* ABOUT ME SECTION START */
+.about_heading img {
+    left: 41%;
+}
+
+.about_heading p {
+    font-size: 16px;
+}
+
+.about_heading p span {
+    font-size: 23px;
+}
+/* ABOUT ME SECTION END */
+}
+
+/* md device end */
+
+/* lg device start */
+@media (min-width:992px) and (max-width:1199px){
+
+/* BANNER SECTION START */
+
+    #banner {
+        height: 643px;
+    }
+
+    #banner h2 {
+        font-size: 50px;
+    }
+
+    #banner h3 {
+        font-size: 26px;
+    }
+
+    #banner h6 {
+        font-size: 14px;
+    }
+
+    button {
+        width: 158px;
+        margin-top: 60px;
+    }
+
+    #banner img {
+        width: 70px;
+    }
+
+/* BANNER SECTION END */
+
+/* ABOUT ME SECTION STARTS */
+
+    .about_heading h2{
+        font-size: 46px;
+    }
+
+    .about_heading img{
+        left: 42%;
+     }
+
+     .about_heading p{
+        font-size: 16px;
+       line-height: 43px;
+    }
+    
+    .about_heading p span{
+        font-size: 23px;
+    }
+/* ABOUT ME SECTION ENDS */
+}
+/* lg device end */
+
+/* XL, XXL device start */
+
+@media (min-width:1200px) {
+
+ /* BANNER SECTION STARTS */
+
+    button{
+        width: 196px;
+        height: 47px;
+        margin-top: 136px;
+    }
+
+    button a{
+        font-size: 14px;
+    }
+
+    #banner{
+        height: 729px;
+    }
+    #banner h3{
+        font-size: 30px;
+    }
+    
+    #banner h2{
+        font-size: 68px;
+        letter-spacing: 30px;
+    }
+    
+    #banner h6{
+        font-size: 18px;
+    }
+    
+    #banner img{
+        top: 55%;
+        left: 47%;
+    }
+
+ /* BANNER SECTION ENDS */
+
+/* ABOUT ME SECTION STARTS */
+    .about_heading h2{
+        font-size: 46px;
+    }
+    
+    .about_heading img{
+       left: 45%;
+    }
+    
+/* ABOUT ME SECTION ENDS */
+}
+/* XL, XXL device end */
+
